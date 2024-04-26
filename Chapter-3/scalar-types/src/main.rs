@@ -55,4 +55,22 @@ fn main() {
     let remainder = 43 % 5;
 
     println!("Addition: {sum}, Subtraction: {difference}, Multiplication: {product}, Division: {quotient}, Truncated: {truncated}, Remainder: {remainder}");
+
+    /*
+    Boolean Type
+    */
+    let t = true;
+
+    let f: bool = false; // with explicit type notation
+
+    println!("True: {}, False: {}",t,f);
+
+    /*
+    Character Type
+    */
+    let c = 'z';
+    let z: char = 'Z'; // With explicit type notation
+    let heart_eyed_cat = '😻';
+
+    println!("Char One: {c}, Char Two: {z}, Emoji: {}",heart_eyed_cat);
 }
