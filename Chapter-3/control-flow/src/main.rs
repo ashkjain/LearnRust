@@ -129,5 +129,5 @@ fn main() {
     {
         println!("{}",number);
     }
-    println!("LIFEOFF!");
+    println!("LIFTOFF!");
 }
